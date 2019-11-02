@@ -6,4 +6,4 @@ addpath([pwd '/Libraries']);
 addpath([pwd '/Models']);
 Piston_Model
 
-% Copyright 2012 The MathWorks, Inc.
+% Copyright 2012-2016 The MathWorks, Inc.

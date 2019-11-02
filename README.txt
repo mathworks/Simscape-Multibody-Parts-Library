@@ -16,6 +16,10 @@ the required blocks together and parameterize them so that frames are always in 
 There are many ways they can be combined, this library shows you one way to do it.
 
 #########  Release History  #########  
+v 2.4 (R2018a)	Mar  2018   Added pulley part and extrusion script.
+                            Added example Three Connected Pulleys
+                            Added example Cable-Driven XY Table with Cross Base
+
 v 2.3 (R2017b)	Sep  2017   Added cone part and extrusion script, sphere part
 
 v 2.2 (R2017a)	Aug  2017   Rod part: Added parameter "Relative Position (B to F)"

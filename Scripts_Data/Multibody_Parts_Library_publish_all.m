@@ -25,5 +25,13 @@ publish_all_html
 cd([SPL_HomeDir '\Examples\Linkages\html'])
 publish_all_html
 
+cd([SPL_HomeDir '\Examples\Pulleys\Simple\ThreePulleys\html'])
+publish_all_html
+
+cd([SPL_HomeDir '\Examples\Pulleys\XY_Table_Cross'])
+startup_sm_pulleys_xytable_cross
+bdclose all
+cd([SPL_HomeDir '\Examples\Pulleys\XY_Table_Cross\html'])
+publish_all_html
 
 % Copyright 2016-2018 The MathWorks(TM), Inc.

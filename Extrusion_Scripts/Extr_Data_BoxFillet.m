@@ -18,7 +18,7 @@ function [xy_data] = Extr_Data_BoxFillet(box_ox, box_oy, rad_o, varargin)
 %   add 'plot' as the final argument
 %   >> Extr_Data_BoxFillet(6,4,1,2,4,0,5,'plot')
 
-% Copyright 2012-2017 The MathWorks, Inc.
+% Copyright 2012-2018 The MathWorks, Inc.
 
 % Default data to show diagram
 if (nargin == 0)
@@ -72,17 +72,19 @@ if (rad_o>0)
     xyset8 = [Extr_Data_Ring(rad_o,0,1,89)];
     xyset8(:,1) = xyset8(:,1)+(box_ox/2-rad_o);
     xyset8(:,2) = xyset8(:,2)+(box_oy/2-rad_o);
-    xy_data = [xyset1; xyset2; xyset3; xyset4; xyset5; xyset6; xyset7; xyset8; xyset1(1,:)];
+    xy_data = [xyset1; xyset2; xyset3; xyset4; xyset5; xyset6; xyset7; xyset8];
 else
     xyset1 = [box_ox/2 box_oy/2];
     xyset3 = [-box_ox/2 box_oy/2];
     xyset5 = [-box_ox/2 -box_oy/2];
     xyset7 = [box_ox/2 -box_oy/2];
-    xy_data = [xyset1; xyset3; xyset5; xyset7;xyset1];
+    xy_data = [xyset1; xyset3; xyset5; xyset7];
 end
+
 
 % Create inner profile
 if (box_ix>0 &&  box_iy>0)
+    xy_data = [xy_data; xy_data(1,:)];
     if(rad_i>0)
         xyset1 = [box_ix/2-rad_i box_iy/2;-box_ix/2+rad_i box_iy/2];
         xyset3 = [-box_ix/2 -rad_i+box_iy/2;-box_ix/2 -box_iy/2+rad_i];

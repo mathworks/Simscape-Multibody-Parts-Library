@@ -3,7 +3,7 @@
 %
 % The plot shows the track of the transport system and the stations along the track.
 %
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_xts_system', 'var')

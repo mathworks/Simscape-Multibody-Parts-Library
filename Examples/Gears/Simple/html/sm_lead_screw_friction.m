@@ -6,7 +6,7 @@
 % determine the coefficient of friction based on the relative rotational
 % speed of the two parts connected by the lead screw.
 %
-% Copyright 2014-2017 The MathWorks, Inc.
+% Copyright 2014-2018 The MathWorks, Inc.
 
 
 
@@ -15,6 +15,8 @@
 open_system('sm_lead_screw_friction')
 
 set_param(find_system('sm_lead_screw_friction','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+%% 
+% <<sm_lead_screw_friction_mechanics_explorer_IMAGE.png>>
 
 %% Lead Screw Friction Subsystem
 %
@@ -53,7 +55,7 @@ sm_lead_screw_friction_plot1actuation;
 %%
 %
 % The Lead Screw Joint can be configured such that positive rotation leads to
-% negative translation.
+% positive translation.
 %
 
 clf
@@ -77,6 +79,6 @@ sm_lead_screw_friction_plot1actuation;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

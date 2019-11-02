@@ -3,7 +3,7 @@
 %
 % The plot below shows the actuation torque of the lead screw.
 %
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_lead_screw_actuation_torque', 'var')
@@ -21,9 +21,9 @@ clf(h1_sm_lead_screw_actuation_torque)
 temp_colororder = get(gca,'defaultAxesColorOrder');
 
 % Get simulation results
-simlog_t = simlog_sm_lead_screw_actuation_torque.Revolute_Nut.Rz.q.series.time;
-simlog_qNut = simlog_sm_lead_screw_actuation_torque.Revolute_Nut.Rz.q.series.values('rev');
-simlog_zScrew = simlog_sm_lead_screw_actuation_torque.Prismatic_Screw.Pz.p.series.values('m');
+simlog_t = simlog_sm_lead_screw_actuation_torque.Revolute_Screw.Rz.q.series.time;
+simlog_qScrew = simlog_sm_lead_screw_actuation_torque.Revolute_Screw.Rz.q.series.values('rev');
+simlog_zSlider = simlog_sm_lead_screw_actuation_torque.Prismatic_Slider.Pz.p.series.values('m');
 simlog_trqAct = logsout_sm_lead_screw_actuation_torque.get('actuation_torque');
 simlog_fLoad = logsout_sm_lead_screw_actuation_torque.get('load_force');
 
@@ -31,27 +31,41 @@ simlog_fLoad = logsout_sm_lead_screw_actuation_torque.get('load_force');
 % Plot results
 simlog_handles(1) = subplot(2, 1, 1);
 yyaxis left
-plot(simlog_t, simlog_qNut, 'LineWidth', 1)
+plot(simlog_t, simlog_qScrew, 'LineWidth', 1)
 ylabel('Revolutions')
-yyaxis right
-plot(simlog_t, simlog_zScrew, 'LineWidth', 1)
+temp_ylim = get(gca,'YLim');
+temp_maxyrange = max(abs(simlog_qScrew(1)-temp_ylim));
+set(gca,'YLim',...
+    [simlog_qScrew(1)-temp_maxyrange ...
+    simlog_qScrew(1)+temp_maxyrange]);yyaxis right
+plot(simlog_t, simlog_zSlider, 'LineWidth', 1)
 ylabel('Position (m)')
+temp_ylim = get(gca,'YLim');
+temp_maxyrange = max(abs(simlog_zSlider(1)-temp_ylim));
+set(gca,'YLim',...
+    [simlog_zSlider(1)-temp_maxyrange ...
+    simlog_zSlider(1)+temp_maxyrange]);
 grid on
 title('Lead Screw Motion')
-legend({'Nut','Screw'},'Location','Best');
+legend({'Screw','Slider'},'Location','Best');
 
 simlog_handles(2) = subplot(2, 1, 2);
 yyaxis left
 plot(simlog_trqAct.Values.Time,simlog_trqAct.Values.Data , 'LineWidth', 1)
-grid on
+temp_ylim = get(gca,'YLim');
+temp_maxyrange = max(abs(simlog_trqAct.Values.Data(1)-temp_ylim))*1.05;
+set(gca,'YLim',...
+    [simlog_trqAct.Values.Data(1)-temp_maxyrange ...
+    simlog_trqAct.Values.Data(1)+temp_maxyrange]);
+    grid on
 ylabel('Torque (Nm)')
 yyaxis right
 plot(simlog_fLoad.Values.Time,simlog_fLoad.Values.Data , 'LineWidth', 1)
-
 temp_ylim = get(gca,'YLim');
+temp_maxyrange = max(abs(simlog_fLoad.Values.Data(1)-temp_ylim))*1.05;
 set(gca,'YLim',...
-    [temp_ylim(1)-0.05*(temp_ylim(2)-temp_ylim(1)) ...
-     temp_ylim(2)+0.05*(temp_ylim(2)-temp_ylim(1))]);
+    [simlog_fLoad.Values.Data(1)-temp_maxyrange ...
+    simlog_fLoad.Values.Data(1)+temp_maxyrange]);
     
 
 ylabel('Force (N)')

@@ -4,7 +4,7 @@
 % The plot below shows the speeds of the three shafts attached to the
 % planetary gear as different pairs of shafts are driven and locked.
 %
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_planetary_gear_testrig', 'var')

@@ -4,7 +4,7 @@
 % blocks for the rack and pinion assembly are contained in a masked
 % subsystem with the key parameters exposed in a dialog box.
 %
-% Copyright 2014-2017 The MathWorks, Inc.
+% Copyright 2014-2018 The MathWorks, Inc.
 
 
 %% Model
@@ -42,6 +42,6 @@ sm_rack_and_pinion_assembly_testrig_plot1speed;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

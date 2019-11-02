@@ -15,7 +15,7 @@
 % Multibody to model the varying mass, inertia, and center of gravity
 % location in each bucket.  
 % 
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 
 %% Model
@@ -186,6 +186,6 @@ sm_water_powered_lift_plot1arm;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

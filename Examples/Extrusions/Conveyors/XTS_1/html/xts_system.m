@@ -8,7 +8,7 @@
 % reconfigure the system.
 %
 %
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 
 %% Model
@@ -92,7 +92,6 @@ xts_system_plot1station;
 
 xts_system_plot2posvel;
 %%
-
-clear all
+%clear all
 close all
 bdclose all

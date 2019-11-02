@@ -5,7 +5,7 @@
 % screw.  A one-way clutch causes the lead screw to only advance as the
 % bucket moves downward.
 %
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_water_powered_lift', 'var')

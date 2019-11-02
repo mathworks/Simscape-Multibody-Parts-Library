@@ -3,7 +3,7 @@
 %
 % The plot below shows the actuation torque of the lead screw.
 %
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_lead_screw_friction', 'var')
@@ -21,9 +21,9 @@ clf(h1_sm_lead_screw_friction)
 temp_colororder = get(gca,'defaultAxesColorOrder');
 
 % Get simulation results
-simlog_t = simlog_sm_lead_screw_friction.Revolute_Nut.Rz.q.series.time;
-simlog_qNut = simlog_sm_lead_screw_friction.Revolute_Nut.Rz.q.series.values('rev');
-simlog_zScrew = simlog_sm_lead_screw_friction.Prismatic_Screw.Pz.p.series.values('m');
+simlog_t = simlog_sm_lead_screw_friction.Revolute_Screw.Rz.q.series.time;
+simlog_qScrew = simlog_sm_lead_screw_friction.Revolute_Screw.Rz.q.series.values('rev');
+simlog_zSlider = simlog_sm_lead_screw_friction.Prismatic_Slider.Pz.p.series.values('m');
 simlog_trqAct = logsout_sm_lead_screw_friction.get('actuation_torque');
 simlog_fLoad = logsout_sm_lead_screw_friction.get('load_force');
 
@@ -34,17 +34,28 @@ temp_muk = get_param([bdroot '/Lead Screw Friction'],'mu_kinetic');
 % Plot results
 simlog_handles(1) = subplot(2, 1, 1);
 yyaxis left
-plot(simlog_t, simlog_qNut, 'LineWidth', 1)
-ylabel('Revolutions')
+plot(simlog_t, simlog_qScrew, 'LineWidth', 1)
+ylabel('Revolutions');
+temp_ylim = get(gca,'YLim');
+temp_maxyrange = max(abs(simlog_qScrew(1)-temp_ylim));
+set(gca,'YLim',...
+    [simlog_qScrew(1)-temp_maxyrange ...
+    simlog_qScrew(1)+temp_maxyrange]);
 text(0.01,0.075,...
     ['Direction: ' temp_direction '; \mu Static: ' temp_mus '; \mu Kinetic: ' temp_muk],...
     'Units','normalized');
 yyaxis right
-plot(simlog_t, simlog_zScrew, 'LineWidth', 1)
+plot(simlog_t, simlog_zSlider, 'LineWidth', 1)
 ylabel('Position (m)')
+temp_ylim = get(gca,'YLim');
+temp_maxyrange = max(abs(simlog_zSlider(1)-temp_ylim));
+set(gca,'YLim',...
+    [simlog_zSlider(1)-temp_maxyrange ...
+    simlog_zSlider(1)+temp_maxyrange]);
+
 grid on
 title('Lead Screw Motion')
-legend({'Nut','Screw'},'Location','Best');
+legend({'Screw','Slider'},'Location','Best');
 
 simlog_handles(2) = subplot(2, 1, 2);
 yyaxis left

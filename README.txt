@@ -1,5 +1,5 @@
 Simscape Multibody Parts Library
-Copyright 2017 The MathWorks, Inc.
+Copyright 2017-2018 The MathWorks, Inc.
 
 This set of examples shows you how to create parameterized parts for Simscape Multibody
 and example MATLAB scripts for defining general extrusions.  The parts have been used in a 
@@ -16,20 +16,23 @@ the required blocks together and parameterize them so that frames are always in 
 There are many ways they can be combined, this library shows you one way to do it.
 
 #########  Release History  #########  
+v 2.3 (R2017b)	Sep  2017   Added cone part and extrusion script, sphere part
+
 v 2.2 (R2017a)	Aug  2017   Rod part: Added parameter "Relative Position (B to F)"
                             Permits changing direction of rod without rewiring diagram.
                             Useful in symmetrical opposing mechanisms, such as crossbars
                             on a scissor lift.
 
-v 2.1 (R2017a)	Jul  2017	Added cone part and extrusion script, sphere part
+v 2.1 (R2017a)	Jul  2017   Added cone part and extrusion script, sphere part
 
-v 2.0 (R2017a)	Jun  2017	Add gearset assemblies, gears, many examples
+v 2.0 (R2017a)	Jun  2017   Add gearset assemblies, gears, many examples
 
-		12 Extrusion scripts, plus two functions for calculating area and perimeter.
-		19 examples, plus 9 examples to show parts
+        12 Extrusion scripts, plus two functions for calculating area and perimeter.
+        19 examples, plus 9 examples to show parts
 
-		Absorbed Simscape Multibody Gearset Library v1.0 into this submission
+        Absorbed Simscape Multibody Gearset Library v1.0 into this submission
                 Gear assemblies for Common Gear, Rack and Pinion, Bevel Gear
                 Bevel Gear 2x, Bevel Gear 4x Closed, and Worm Gear
-		        11 examples, including lead screw, lead screw with
+                11 examples, including lead screw, lead screw with
                 friction, open differential, and water powered lift
+

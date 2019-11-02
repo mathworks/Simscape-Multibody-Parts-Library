@@ -5,7 +5,7 @@
 % The assembly can be configured to model an external or internal gear set
 % by adjusting parameters in the mask.
 %
-% Copyright 2014-2017 The MathWorks, Inc.
+% Copyright 2014-2018 The MathWorks, Inc.
 
 
 
@@ -63,6 +63,6 @@ sm_common_gear_assembly_testrig_plot1speed;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

@@ -5,7 +5,7 @@
 % Driving and locking different pairs of shafts will produce different
 % movements.
 % 
-% Copyright 2013-2017 The MathWorks, Inc.
+% Copyright 2013-2018 The MathWorks, Inc.
 
 
 %% Model
@@ -58,6 +58,6 @@ sm_planetary_gear_testrig_plot1speed;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

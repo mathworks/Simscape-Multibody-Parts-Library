@@ -6,7 +6,7 @@
 % sections. There are no joints in this model, it is simply to show how
 % parts can be created.
 %
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 
 %% Model
@@ -40,6 +40,6 @@ open_system('sm_parts_test_tube_ell/Chain','force')
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

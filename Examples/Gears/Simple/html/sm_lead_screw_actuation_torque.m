@@ -5,7 +5,7 @@
 % specified motion for the lead screw.  A load force acts on the screw,
 % increasing the amount of torque required to drive the lead screw
 %
-% Copyright 2014-2017 The MathWorks, Inc.
+% Copyright 2014-2018 The MathWorks, Inc.
 
 
 %% Model
@@ -28,6 +28,6 @@ sm_lead_screw_actuation_torque_plot1actuation;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

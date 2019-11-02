@@ -4,7 +4,7 @@
 % worm gear assembly are contained in a masked subsystem with the key
 % parameters exposed in a dialog box.
 %
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 
 
@@ -58,6 +58,6 @@ sim(bdroot);
 sm_worm_gear_assembly_testrig_plot1speed;
 %%
 
-clear all
+%clear all
 close all
 bdclose all

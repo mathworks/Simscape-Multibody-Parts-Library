@@ -1,5 +1,5 @@
 % Mover created using Simscape Multibody general extrusion
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 % Sizing parameters
 xtm_h = 0.0225*2.8;

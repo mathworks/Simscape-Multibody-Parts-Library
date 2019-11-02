@@ -12,7 +12,7 @@
 % more complex part.  Key parameters are provided in the block mask for
 % geometry, material, and appearance.  
 %
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 %% Visualization of Parts from Library (partial)
 %
@@ -261,6 +261,6 @@ sm_parts_cone
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

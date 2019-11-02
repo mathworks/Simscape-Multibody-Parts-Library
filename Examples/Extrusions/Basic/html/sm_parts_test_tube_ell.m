@@ -6,7 +6,7 @@
 % sections. There are no joints in this model, it is simply to show how
 % parts can be created.
 %
-% Copyright 2017-2018 The MathWorks, Inc.
+% Copyright 2017-2019 The MathWorks, Inc.
 
 
 %% Model

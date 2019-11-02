@@ -1,5 +1,5 @@
 % Rail created using Simscape Multibody general extrusion
-% Copyright 2017-2018 The MathWorks, Inc.
+% Copyright 2017-2019 The MathWorks, Inc.
 
 % General parameters
 xts_rail_color = [0.0 0.4 0.8];

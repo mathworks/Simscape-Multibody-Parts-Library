@@ -4,7 +4,7 @@
 % The plots below show the angle of each pulley and the torqure required to
 % produce this motion
 %
-% Copyright 2018 The MathWorks, Inc.
+% Copyright 2018-2019 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_pulleys_3pulleys', 'var')

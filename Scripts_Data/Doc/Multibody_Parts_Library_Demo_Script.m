@@ -42,4 +42,4 @@
 % <tr>2. Linear Transport System: <a href="matlab:cd([SPL_HomeDir filesep 'Examples' filesep 'Extrusions' filesep 'Conveyors' filesep 'XTS_1']);startup_xts_system;"> Model</a>, <a href="matlab:web('xts_system.html');">Documentation</a><br>
 % </html>
 % 
-% Copyright 2017-2018 The MathWorks(TM), Inc.
+% Copyright 2017-2019 The MathWorks(TM), Inc.

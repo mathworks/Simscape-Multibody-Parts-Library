@@ -4,7 +4,7 @@
 % The plot below shows the initial position of the four-bar linkage and the
 % trajectories traced by the tips of links 1 and 3.
 %
-% Copyright 2017-2018 The MathWorks, Inc.
+% Copyright 2017-2019 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_links_4bar', 'var')

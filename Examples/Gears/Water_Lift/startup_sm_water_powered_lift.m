@@ -1,5 +1,5 @@
 % Startup script for sm_water_powered_lift.slx
-% Copyright 2017-2018 The MathWorks, Inc.
+% Copyright 2017-2019 The MathWorks, Inc.
 
 addpath(pwd);
 addpath([pwd filesep 'Images']);

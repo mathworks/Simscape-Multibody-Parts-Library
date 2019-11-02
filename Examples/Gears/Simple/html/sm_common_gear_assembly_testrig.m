@@ -5,7 +5,7 @@
 % The assembly can be configured to model an external or internal gear set
 % by adjusting parameters in the mask.
 %
-% Copyright 2014-2018 The MathWorks, Inc.
+% Copyright 2014-2019 The MathWorks, Inc.
 
 
 

@@ -5,7 +5,7 @@
 % is synchronized, taking into account the pulley radii and wrap direction
 % of the cable.
 %
-% Copyright 2018 The MathWorks, Inc.
+% Copyright 2018-2019 The MathWorks, Inc.
 
 
 %% Model

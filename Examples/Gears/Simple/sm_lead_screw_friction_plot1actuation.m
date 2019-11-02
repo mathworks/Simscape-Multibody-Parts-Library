@@ -3,7 +3,7 @@
 %
 % The plot below shows the actuation torque of the lead screw.
 %
-% Copyright 2017-2018 The MathWorks, Inc.
+% Copyright 2017-2019 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_lead_screw_friction', 'var')

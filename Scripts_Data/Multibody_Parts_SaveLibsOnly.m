@@ -3,7 +3,7 @@
 % Resulting folder SPL_Copy can be copy/pasted
 % into other projects.
 %
-% Copyright 2014-2018 The MathWorks, Inc.
+% Copyright 2014-2019 The MathWorks, Inc.
 
 folder_list = {...
     'Extrusion_Scripts',...

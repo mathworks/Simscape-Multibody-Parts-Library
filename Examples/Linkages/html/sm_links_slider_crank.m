@@ -37,6 +37,6 @@ sm_links_slider_crank_plot1position;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

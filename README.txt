@@ -16,6 +16,9 @@ the required blocks together and parameterize them so that frames are always in 
 There are many ways they can be combined, this library shows you one way to do it.
 
 #########  Release History  #########  
+v 3.0 (R2018b)	Sep  2018   Updated mask images to mask new icons
+                            Added opacity to cylinder, rod, and gears
+
 v 2.4 (R2018a)	Mar  2018   Added pulley part and extrusion script.
                             Added example Three Connected Pulleys
                             Added example Cable-Driven XY Table with Cross Base

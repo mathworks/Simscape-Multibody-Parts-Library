@@ -70,6 +70,6 @@ sm_links_4bar_plot1trajectory;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

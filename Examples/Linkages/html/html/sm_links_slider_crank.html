@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Slider Crank Linkage</title><meta name="generator" content="MATLAB 9.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2018-02-10"><meta name="DC.source" content="sm_links_slider_crank.m"><style type="text/css">
+      --><title>Slider Crank Linkage</title><meta name="generator" content="MATLAB 9.5"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2018-09-12"><meta name="DC.source" content="sm_links_slider_crank.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -66,7 +66,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><h1>Slider Crank Linkage</h1><!--introduction--><p>This example models a slider-crank mechanism using parts from the Simscape Multibody Parts Library.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Model</a></li><li><a href="#3">Slider Subsystem</a></li><li><a href="#4">Simulation Results from Simscape Logging</a></li></ul></div><h2 id="1">Model</h2><img vspace="5" hspace="5" src="sm_links_slider_crank_01.png" alt=""> <p><img vspace="5" hspace="5" src="sm_links_slider_crank_mechanics_explorer_IMAGE.png" alt=""> </p><h2 id="3">Slider Subsystem</h2><p>This subsystem combines a few parts to model the slider.  Block Transform F creates the interface frame that is properly oriented for the translational degree of freedom.</p><p><a href="matlab:open_system('sm_links_slider_crank');open_system('sm_links_slider_crank/Slider','force');">Open Subsystem</a></p><img vspace="5" hspace="5" src="sm_links_slider_crank_02.png" alt=""> <h2 id="4">Simulation Results from Simscape Logging</h2><p>This plot shows the position of the slider in the slider-crank mechanism.</p><img vspace="5" hspace="5" src="sm_links_slider_crank_03.png" alt=""> <p class="footer">Copyright 2017-2018 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+  </style></head><body><div class="content"><h1>Slider Crank Linkage</h1><!--introduction--><p>This example models a slider-crank mechanism using parts from the Simscape Multibody Parts Library.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Model</a></li><li><a href="#3">Slider Subsystem</a></li><li><a href="#4">Simulation Results from Simscape Logging</a></li></ul></div><h2 id="1">Model</h2><img vspace="5" hspace="5" src="sm_links_slider_crank_01.png" alt=""> <p><img vspace="5" hspace="5" src="sm_links_slider_crank_mechanics_explorer_IMAGE.png" alt=""> </p><h2 id="3">Slider Subsystem</h2><p>This subsystem combines a few parts to model the slider.  Block Transform F creates the interface frame that is properly oriented for the translational degree of freedom.</p><p><a href="matlab:open_system('sm_links_slider_crank');open_system('sm_links_slider_crank/Slider','force');">Open Subsystem</a></p><img vspace="5" hspace="5" src="sm_links_slider_crank_02.png" alt=""> <h2 id="4">Simulation Results from Simscape Logging</h2><p>This plot shows the position of the slider in the slider-crank mechanism.</p><img vspace="5" hspace="5" src="sm_links_slider_crank_03.png" alt=""> <p class="footer">Copyright 2017-2018 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018b</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Slider Crank Linkage
 % 
@@ -107,7 +107,7 @@ sm_links_slider_crank_plot1position;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all
 

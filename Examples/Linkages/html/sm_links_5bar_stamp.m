@@ -50,6 +50,6 @@ sm_links_5bar_stamp_plot1height;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

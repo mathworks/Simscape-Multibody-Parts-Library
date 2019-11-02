@@ -19,6 +19,7 @@ publish_all_html
 cd([SPL_HomeDir '\Examples\Gears\Water_Lift'])
 startup_sm_water_powered_lift
 bdclose all
+
 cd([SPL_HomeDir '\Examples\Gears\Water_Lift\html'])
 publish_all_html
 

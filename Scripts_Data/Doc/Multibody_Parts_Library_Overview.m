@@ -152,6 +152,21 @@ sm_parts_link
 %%
 % <<sm_parts_link_mechanics_explorer.png>>
 
+%% Extrusion Scripts: Triangle Link
+%
+% MATLAB function Extr_Data_TriangleLink_Holes.m creates a cross-section for a triangular solid with rounded corners and a hole at each corner.
+%
+
+Extr_Data_TriangleRounded_Holes(0.1, 0.05, 0.33, 0.005, 0.0125,'plot');
+
+%%
+% <matlab:open_system('sm_parts_triangle_link'); Open model sm_parts_triangle_link.slx>
+
+sm_parts_triangle_link
+
+%%
+% <<sm_parts_triangle_link_mechanics_explorer.png>>
+
 %% Extrusion Scripts: Link Segment, 2 Holes
 %
 % MATLAB function Extr_Data_Link2Hole.m creates a cross-section for a

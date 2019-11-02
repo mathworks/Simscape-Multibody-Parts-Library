@@ -1,38 +1,50 @@
-cd([SPL_HomeDir '\Scripts_Data\Doc'])
-publish_all_html
+% Copyright 2016-2018 The MathWorks(TM), Inc.
 
-cd([SPL_HomeDir '\Examples\Extrusions\Basic\html'])
-publish_all_html
-
-cd([SPL_HomeDir '\Examples\Extrusions\Conveyors\XTS_1'])
+cd(fileparts(which('startup_xts_system.m')))
 startup_xts_system
 bdclose('xts_system');
-cd([pwd '\html']);
-publish_all_html
+cd('html');
+publish_allCodeForHTML
 
-cd([SPL_HomeDir '\Examples\Gears\Differential\html'])
-publish_all_html
+cd(fileparts(which('sm_open_differential_testrig.slx')))
+cd('html');
+publish_allCodeForHTML
 
-cd([SPL_HomeDir '\Examples\Gears\Simple\html'])
-publish_all_html
+cd(fileparts(which('sm_bevel_gear_2x_assembly_testrig.slx')))
+cd('html');
+publish_allCodeForHTML
 
-cd([SPL_HomeDir '\Examples\Gears\Water_Lift'])
+cd(fileparts(which('startup_sm_water_powered_lift.m')))
 startup_sm_water_powered_lift
 bdclose all
+cd('html');
+publish_allCodeForHTML
 
-cd([SPL_HomeDir '\Examples\Gears\Water_Lift\html'])
-publish_all_html
+cd(fileparts(which('sm_links_4bar.slx')))
+cd('html');
+publish_allCodeForHTML
 
-cd([SPL_HomeDir '\Examples\Linkages\html'])
-publish_all_html
+cd(fileparts(which('sm_pulleys_3pulleys.slx')))
+cd('html');
+publish_allCodeForHTML
 
-cd([SPL_HomeDir '\Examples\Pulleys\Simple\ThreePulleys\html'])
-publish_all_html
-
-cd([SPL_HomeDir '\Examples\Pulleys\XY_Table_Cross'])
+cd(fileparts(which('startup_sm_pulleys_xytable_cross.m')))
 startup_sm_pulleys_xytable_cross
 bdclose all
-cd([SPL_HomeDir '\Examples\Pulleys\XY_Table_Cross\html'])
-publish_all_html
+cd('html');
+publish_allCodeForHTML
 
-% Copyright 2016-2019 The MathWorks(TM), Inc.
+
+function publish_allCodeForHTML
+filelist_m=dir('*.m');
+
+filenames_m = {filelist_m.name};
+
+warning('off','Simulink:Engine:MdlFileShadowedByFile');
+
+for i=1:length(filenames_m)
+    if ~(strcmp(filenames_m{i},'publish_all_html.m'))
+    publish(filenames_m{i},'showCode',false)
+    end
+end
+end

@@ -1,6 +1,6 @@
 function startup_Multibody_Parts_Core
 % Startup function for project Multibod_Parts_Core.prj
-% Copyright 2014-2019 The MathWorks, Inc.
+% Copyright 2014-2020 The MathWorks, Inc.
 
 MPL_libname = 'Multibody_Parts_Lib';
 load_system(MPL_libname);

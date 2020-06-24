@@ -6,7 +6,7 @@
 % determine the coefficient of friction based on the relative rotational
 % speed of the two parts connected by the lead screw.
 %
-% Copyright 2014-2019 The MathWorks, Inc.
+% Copyright 2014-2020 The MathWorks, Inc.
 
 
 

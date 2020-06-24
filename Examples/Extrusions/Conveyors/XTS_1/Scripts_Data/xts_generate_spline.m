@@ -1,5 +1,5 @@
 function [rail_spline, station_data] = xts_generate_spline(track_seg)
-% Copyright 2017-2019 The MathWorks, Inc.
+% Copyright 2017-2020 The MathWorks, Inc.
 
 % Number of stations per segment type (straight, curved)
 numStStraight = 2;

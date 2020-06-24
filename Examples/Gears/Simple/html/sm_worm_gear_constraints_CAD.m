@@ -4,7 +4,7 @@
 % files exported from a CAD system.  Two Revolute Joints and a Worm Gear
 % Constraint constrain the parts for the correct kinematic behavior.
 %
-% Copyright 2017-2019 The MathWorks, Inc.
+% Copyright 2017-2020 The MathWorks, Inc.
 
 
 

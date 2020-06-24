@@ -8,7 +8,7 @@
 % reconfigure the system.
 %
 %
-% Copyright 2017-2019 The MathWorks, Inc.
+% Copyright 2017-2020 The MathWorks, Inc.
 
 
 %% Model

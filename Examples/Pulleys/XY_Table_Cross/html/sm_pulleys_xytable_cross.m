@@ -11,7 +11,7 @@
 % Inverse dynamics can be used to calculate the torque required to produce
 % that motion.
 %
-% Copyright 2018-2019 The MathWorks, Inc.
+% Copyright 2018-2020 The MathWorks, Inc.
 
 
 

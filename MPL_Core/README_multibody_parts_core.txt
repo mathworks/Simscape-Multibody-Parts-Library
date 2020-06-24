@@ -1,5 +1,5 @@
  Simscape Multibody Parts Library - Core
-Copyright 2017-2019 The MathWorks, Inc.
+Copyright 2017-2020 The MathWorks, Inc.
 
 This set of examples shows you how to create parameterized parts for Simscape Multibody
 and example MATLAB scripts for defining general extrusions.  The parts have been used in a 
@@ -20,6 +20,9 @@ includes this project as a Reference Project.  If you wish to include these part
 in your project, you can also refer to Multibody_Parts_Core.prj as a Reference Project.
 
 #########  Release History  #########  
+v 4.0 (R2020a)	Mar  2020   Updated 4.0 for R2020a.
+      (R2019b)
+
 v 4.0 (R2019b)	Sep  2019   Converted library for use with MATLAB Projects.
                             Multibody_Parts_Library.prj refers to 
                             Multibody_Parts_Core.prj as a Reference Project

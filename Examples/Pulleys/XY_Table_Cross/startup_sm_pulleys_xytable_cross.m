@@ -6,4 +6,4 @@ load sm_pulleys_xytable_cross_driveqs
 
 sm_pulleys_xytable_cross
 
-% Copyright 2012-2019 The MathWorks, Inc.
+% Copyright 2012-2020 The MathWorks, Inc.

@@ -4,7 +4,7 @@
 % The plot below shows the speeds of the two shafts connected by the bevel
 % gear assembly.
 %
-% Copyright 2017-2019 The MathWorks, Inc.
+% Copyright 2017-2020 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_bevel_gear_assembly_testrig', 'var')

@@ -1,5 +1,5 @@
 Water Powered Lift
-Copyright 2017-2019 The MathWorks, Inc.
+Copyright 2017-2020 The MathWorks, Inc.
 
 This example models a water powered mechanical lift.  Water flowing from
 a spout fills a bucket that is on the end of an arm.  When the bucket is

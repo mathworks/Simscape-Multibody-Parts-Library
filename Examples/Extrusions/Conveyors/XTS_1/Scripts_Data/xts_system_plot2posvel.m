@@ -4,7 +4,7 @@
 % The plots below show speed and position along the global x-axis for
 % each mover.
 %
-% Copyright 2017-2020 The MathWorks, Inc.
+% Copyright 2017-2021 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_xts_system', 'var')

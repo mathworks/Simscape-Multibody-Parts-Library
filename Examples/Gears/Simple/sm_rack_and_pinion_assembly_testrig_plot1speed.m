@@ -3,7 +3,7 @@
 %
 % The plot below shows the speeds of the rack and pinion.
 %
-% Copyright 2017-2020 The MathWorks, Inc.
+% Copyright 2017-2021 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_rack_and_pinion_assembly_testrig', 'var')

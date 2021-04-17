@@ -5,7 +5,7 @@
 % Driving and locking different pairs of shafts will produce different
 % movements.
 % 
-% Copyright 2013-2020 The MathWorks, Inc.
+% Copyright 2013-2021 The MathWorks, Inc.
 
 
 %% Model

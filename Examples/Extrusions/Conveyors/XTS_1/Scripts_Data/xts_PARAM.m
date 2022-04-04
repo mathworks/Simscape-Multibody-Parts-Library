@@ -1,5 +1,5 @@
 % Parameters for XTS conveyor system
-% Copyright 2017-2021 The MathWorks, Inc.
+% Copyright 2017-2022 The MathWorks, Inc.
 
 % Actuation and control
 xts_ctrl_dead_zone = 0.005; %m

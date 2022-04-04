@@ -4,7 +4,7 @@
 % blocks for the rack and pinion assembly are contained in a masked
 % subsystem with the key parameters exposed in a dialog box.
 %
-% Copyright 2014-2021 The MathWorks, Inc.
+% Copyright 2014-2022 The MathWorks, Inc.
 
 
 %% Model

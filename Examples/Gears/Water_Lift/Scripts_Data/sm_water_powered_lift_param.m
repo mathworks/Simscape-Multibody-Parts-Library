@@ -1,5 +1,5 @@
 % Parameters for Water Powered Lift
-% Copyright 2017-2021 The MathWorks, Inc.
+% Copyright 2017-2022 The MathWorks, Inc.
 
 % Wheel
 wrat.wheel.radius = 1;

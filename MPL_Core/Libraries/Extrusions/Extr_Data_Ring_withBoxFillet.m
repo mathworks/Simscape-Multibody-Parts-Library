@@ -16,7 +16,7 @@ function [xy_data] = Extr_Data_Ring_withBoxFillet(ring_or, box_ox, box_oy, rad_o
 %   add 'plot' as the final argument
 %   >> Extr_Data_Ring_withBoxFillet(5,2.5,8,0.2,'plot')
 
-% Copyright 2018-2021 The MathWorks, Inc.
+% Copyright 2018-2022 The MathWorks, Inc.
 
 % Default data to show diagram
 deg1 = 90;

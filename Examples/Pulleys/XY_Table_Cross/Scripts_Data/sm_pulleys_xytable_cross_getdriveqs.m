@@ -1,4 +1,4 @@
-% Copyright 2018-2021 The MathWorks, Inc.
+% Copyright 2018-2022 The MathWorks, Inc.
 % Obtain driven pulley angles
 sm_pulleys_xytable_cross_configmotion('sm_pulleys_xytable_cross','XY Position');
 sim('sm_pulleys_xytable_cross');

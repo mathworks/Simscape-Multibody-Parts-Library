@@ -27,7 +27,7 @@
 % <tr>1. Common Gear Assembly Testrig: <a href="matlab:open_system('sm_common_gear_assembly_testrig.slx');"> Model</a>, <a href="matlab:web('sm_common_gear_assembly_testrig.html');">Documentation</a><br>
 % </html>
 %
-% Copyright 2017-2021 The MathWorks, Inc.
+% Copyright 2017-2022 The MathWorks, Inc.
 
 %% Visualization of Parts from Library (partial)
 %

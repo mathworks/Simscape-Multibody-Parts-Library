@@ -3,7 +3,7 @@
 % This example models a slider-crank mechanism using parts from the
 % Simscape Multibody Parts Library.
 %
-% Copyright 2017-2021 The MathWorks, Inc.
+% Copyright 2017-2022 The MathWorks, Inc.
 
 
 %% Model

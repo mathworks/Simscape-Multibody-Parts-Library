@@ -1,4 +1,4 @@
-% Copyright 2016-2021 The MathWorks(TM), Inc.
+% Copyright 2016-2022 The MathWorks(TM), Inc.
 
 cd(fileparts(which('startup_xts_system.m')))
 startup_xts_system

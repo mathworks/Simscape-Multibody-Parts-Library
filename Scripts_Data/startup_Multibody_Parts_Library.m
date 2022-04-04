@@ -1,6 +1,6 @@
 function startup_Multibody_Parts_Library
 
-% Copyright 2012-2021 The MathWorks, Inc.
+% Copyright 2012-2022 The MathWorks, Inc.
 
 % Only open overview if this is the top level project
 % Do not open if this is a Reference Project

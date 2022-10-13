@@ -15,7 +15,7 @@
 
 open_system('sm_parts_test_tube_circ')
 
-set_param(find_system('sm_parts_test_tube_circ','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_parts_test_tube_circ','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% 
 % <<sm_parts_test_tube_circ_mechanics_explorer_IMAGE.png>>

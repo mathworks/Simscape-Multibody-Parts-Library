@@ -10,7 +10,7 @@
 
 open_system('sm_links_slider_crank')
 
-set_param(find_system('sm_links_slider_crank','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_links_slider_crank','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %%
 % <<sm_links_slider_crank_mechanics_explorer_IMAGE.png>>

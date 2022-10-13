@@ -1,5 +1,5 @@
 # **Simscape Multibody Parts Library**
-Copyright 2017-2020 The MathWorks(TM), Inc.
+Copyright 2017-2022 The MathWorks(TM), Inc.
 
 [![View Simscape Multibody Parts Library on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/36536-simscape-multibody-parts-library)
 
@@ -18,6 +18,18 @@ the required blocks together and parameterize them so that frames are always in 
 There are many ways they can be combined, this library shows you one way to do it.
 
 ### **Release History** 
+**v4.0 Sep 2022** (R2019b - R2022b)
+1. Updated for R2022b
+
+**v4.0 Mar 2022** (R2019b - R2022a)
+1. Updated for R2022a
+
+**v4.0 Sep 2021** (R2019b - R2021b)
+1. Updated for R2021b
+
+**v4.0 Mar 2021** (R2019b - R2021a)
+1. Updated for R2021a
+
 **v4.0 Sep 2020** (R2019b - R2020b)
 1. Updated for R2020b
 

@@ -14,7 +14,7 @@
 
 open_system('sm_links_5bar_stamp')
 
-set_param(find_system('sm_links_5bar_stamp','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_links_5bar_stamp','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% 
 % <<sm_links_5bar_stamp_mechanics_explorer_IMAGE.png>>

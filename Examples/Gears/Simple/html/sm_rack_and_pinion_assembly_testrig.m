@@ -11,7 +11,7 @@
 
 open_system('sm_rack_and_pinion_assembly_testrig')
 
-set_param(find_system('sm_rack_and_pinion_assembly_testrig','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_rack_and_pinion_assembly_testrig','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Rack and Pinion Assembly Subsystem
 %

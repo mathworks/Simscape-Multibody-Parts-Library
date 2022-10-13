@@ -15,7 +15,7 @@
 
 open_system('xts_system')
 
-set_param(find_system('xts_system','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('xts_system','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% 
 % <<xts_system_mechanics_explorer_IMAGE.png>>

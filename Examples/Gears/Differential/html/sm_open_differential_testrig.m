@@ -12,7 +12,7 @@
 
 open_system('sm_open_differential_testrig')
 
-set_param(find_system('sm_open_differential_testrig','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_open_differential_testrig','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% 
 % <<sm_open_differential_testrig_mechanics_explorer_IMAGE.png>>

@@ -12,7 +12,7 @@
 
 open_system('sm_lead_screw_actuation_torque')
 
-set_param(find_system('sm_lead_screw_actuation_torque','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_lead_screw_actuation_torque','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% 
 % <<sm_lead_screw_actuation_torque_mechanics_explorer_IMAGE.png>>

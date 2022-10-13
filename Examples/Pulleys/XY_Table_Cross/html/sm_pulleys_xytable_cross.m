@@ -19,7 +19,7 @@
 
 open_system('sm_pulleys_xytable_cross')
 
-set_param(find_system('sm_pulleys_xytable_cross','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_pulleys_xytable_cross','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Platform Subsystem
 %

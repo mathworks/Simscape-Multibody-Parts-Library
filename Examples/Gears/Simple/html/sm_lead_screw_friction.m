@@ -14,7 +14,7 @@
 
 open_system('sm_lead_screw_friction')
 
-set_param(find_system('sm_lead_screw_friction','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_lead_screw_friction','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 %% 
 % <<sm_lead_screw_friction_mechanics_explorer_IMAGE.png>>
 

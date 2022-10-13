@@ -12,7 +12,7 @@
 
 open_system('sm_worm_gear_constraints_CAD')
 
-set_param(find_system('sm_worm_gear_constraints_CAD','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_worm_gear_constraints_CAD','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% 
 % <<sm_worm_gear_constraints_CAD_mechanics_explorer_IMAGE.png>>

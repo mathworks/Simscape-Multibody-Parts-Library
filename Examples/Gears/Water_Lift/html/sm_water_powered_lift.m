@@ -22,7 +22,7 @@
 
 open_system('sm_water_powered_lift')
 
-set_param(find_system('sm_water_powered_lift','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_water_powered_lift','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% 
 % <<sm_water_powered_lift_mechanics_explorer_IMAGE.png>>

@@ -11,7 +11,7 @@
 
 open_system('sm_links_4bar')
 
-set_param(find_system('sm_links_4bar','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_links_4bar','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Simulation Results from Simscape Logging
 %%

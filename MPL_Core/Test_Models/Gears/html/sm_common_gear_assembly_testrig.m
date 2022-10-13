@@ -13,7 +13,7 @@
 
 open_system('sm_common_gear_assembly_testrig')
 
-set_param(find_system('sm_common_gear_assembly_testrig','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_common_gear_assembly_testrig','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% 
 % <<sm_common_gear_assembly_testrig_external_mechanics_explorer_IMAGE.png>>

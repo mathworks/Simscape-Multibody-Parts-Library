@@ -12,7 +12,7 @@
 
 open_system('sm_pulleys_3pulleys')
 
-set_param(find_system('sm_pulleys_3pulleys','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_pulleys_3pulleys','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Pulleys Subsystem
 %

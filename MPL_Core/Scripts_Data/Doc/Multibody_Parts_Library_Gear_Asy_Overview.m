@@ -7,7 +7,7 @@
 % There are many ways they can be combined, this library shows you one way
 % to do it.
 %
-% Copyright 2017-2022 The MathWorks, Inc.
+% Copyright 2017-2023 The MathWorks, Inc.
 
 %%
 % <<Multibody_Parts_Library_Gear_Assembly_Overview_p1.png>>

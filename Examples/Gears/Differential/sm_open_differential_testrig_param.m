@@ -1,5 +1,5 @@
 % Parameters for sm_open_differential_testrig
-% Copyright 2017-2022 The MathWorks, Inc.
+% Copyright 2017-2023 The MathWorks, Inc.
 
 odiff.pinion.rad = 0.075;
 odiff.pinion.color = [0.0 0.4 0.6];

@@ -1,12 +1,17 @@
-
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <!--
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Worm Gear Constraints and CAD Parts</title><meta name="generator" content="MATLAB 9.14"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2023-03-14"><meta name="DC.source" content="sm_worm_gear_constraints_CAD.m"><style type="text/css">
+      -->
+<title>Worm Gear Constraints and CAD Parts</title>
+<meta name="generator" content="MATLAB 23.2">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+<meta name="DC.date" content="2023-09-14">
+<meta name="DC.source" content="sm_worm_gear_constraints_CAD.m">
+<style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -67,18 +72,44 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><h1>Worm Gear Constraints and CAD Parts</h1><!--introduction--><p>This example models a worm gear assembly. The worm and gear are STEP files exported from a CAD system.  Two Revolute Joints and a Worm Gear Constraint constrain the parts for the correct kinematic behavior.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Model</a></li><li><a href="#3">Worm Gear Assembly Constraints Subsystem</a></li><li><a href="#4">Simulation Results from Simscape Logging</a></li></ul></div><h2 id="1">Model</h2><img vspace="5" hspace="5" src="sm_worm_gear_constraints_CAD_01.png" alt=""> <p><img vspace="5" hspace="5" src="sm_worm_gear_constraints_CAD_mechanics_explorer_IMAGE.png" alt=""> </p><h2 id="3">Worm Gear Assembly Constraints Subsystem</h2><p>The Worm Gear Constraint requires that the rest of the mechanism hold the two frames to which it is connected in alignment.  This subsystem has the necessary constraints and parameterized Rigid Transform to hold the frames in the right position and orientation.</p><p><a href="matlab:open_system('sm_worm_gear_constraints_CAD');open_system('sm_worm_gear_constraints_CAD/Worm%20Gear%20Constraints','force');">Open Subsystem</a></p><img vspace="5" hspace="5" src="sm_worm_gear_constraints_CAD_02.png" alt=""> <h2 id="4">Simulation Results from Simscape Logging</h2><p>The plot below shows the speeds of the two shafts connected by the worm gear assembly with worm direction set to Right-Hand.</p><pre class="codeoutput">Warning: ['sm_worm_gear_constraints_CAD/Worm'] : Frame F [Frame1]: The geometric
-feature the origin is based on, "planar surface 4", does not exist. The geometry
-may have changed. Resolve this issue in order to remove the warning. 
-Warning: ['sm_worm_gear_constraints_CAD/Worm'] : File Solid block &lt;a
-href="matlab:pm.sli.highlightSystem('sm_worm_gear_constraints_CAD/Worm');"&gt;sm_worm_gear_constraints_CAD/Worm&lt;/a&gt;
-has at least one frame that is based on a geometric feature. Due to upgrades in
-the STEP file reader, the geometric features defining the frames may have
-changed. It is recommended that you verify the frames of this File Solid block
-are as expected. Once verified, click &lt;a
-href="matlab:set_param('sm_worm_gear_constraints_CAD/Worm','StepReaderType','HEX');"&gt;here&lt;/a&gt;
-to clear the warning. Resolve this issue in order to remove the warning. 
-</pre><img vspace="5" hspace="5" src="sm_worm_gear_constraints_CAD_03.png" alt=""> <p class="footer">Copyright 2017-2023 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023a</a><br></p></div><!--
+  </style>
+</head>
+<body>
+<div class="content">
+<h1>Worm Gear Constraints and CAD Parts</h1>
+<!--introduction-->
+<p>This example models a worm gear assembly. The worm and gear are STEP files exported from a CAD system. Two Revolute Joints and a Worm Gear Constraint constrain the parts for the correct kinematic behavior.</p>
+<!--/introduction-->
+<h2>Contents</h2>
+<div>
+<ul>
+<li>
+<a href="#1">Model</a>
+</li>
+<li>
+<a href="#3">Worm Gear Assembly Constraints Subsystem</a>
+</li>
+<li>
+<a href="#4">Simulation Results from Simscape Logging</a>
+</li>
+</ul>
+</div>
+<h2 id="1">Model</h2>
+<img vspace="5" hspace="5" src="sm_worm_gear_constraints_CAD_01.png" alt=""> <p>
+<img vspace="5" hspace="5" src="sm_worm_gear_constraints_CAD_mechanics_explorer_IMAGE.png" alt=""> </p>
+<h2 id="3">Worm Gear Assembly Constraints Subsystem</h2>
+<p>The Worm Gear Constraint requires that the rest of the mechanism hold the two frames to which it is connected in alignment. This subsystem has the necessary constraints and parameterized Rigid Transform to hold the frames in the right position and orientation.</p>
+<p>
+<a href="matlab:open_system('sm_worm_gear_constraints_CAD');open_system('sm_worm_gear_constraints_CAD/Worm%20Gear%20Constraints','force');">Open Subsystem</a>
+</p>
+<img vspace="5" hspace="5" src="sm_worm_gear_constraints_CAD_02.png" alt=""> <h2 id="4">Simulation Results from Simscape Logging</h2>
+<p>The plot below shows the speeds of the two shafts connected by the worm gear assembly with worm direction set to Right-Hand.</p>
+<img vspace="5" hspace="5" src="sm_worm_gear_constraints_CAD_03.png" alt=""> <p class="footer">Copyright 2017-2023 The MathWorks, Inc.<br>
+<a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023b</a>
+<br>
+</p>
+</div>
+<!--
 ##### SOURCE BEGIN #####
 %% Worm Gear Constraints and CAD Parts
 % 
@@ -128,4 +159,6 @@ close all
 bdclose all
 
 ##### SOURCE END #####
---></body></html>
+-->
+</body>
+</html>

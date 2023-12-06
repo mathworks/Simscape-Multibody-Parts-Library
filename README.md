@@ -1,14 +1,14 @@
 # **Simscape Multibody Parts Library**
-Copyright 2017-2022 The MathWorks(TM), Inc.
+Copyright 2017-2023 The MathWorks(TM), Inc.
 
-[![View Simscape Multibody Parts Library on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/36536-simscape-multibody-parts-library)
+View on File Exchange: [![View Simscape Multibody Parts Library on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/36536-simscape-multibody-parts-library)  
+You can also open in MATLAB Online: [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/Simscape-Multibody-Parts-Library&project=Multibody_Parts_Library.prj)
 
 This set of examples shows you how to create parameterized parts for Simscape Multibody
 and example MATLAB scripts for defining general extrusions.  The parts have been used in a 
 wide range of examples to show how these blocks enable you to rapidly model mechanisms.
 Consistent orientation of frames at the interfaces make it easy to combine them.
 
-Read the README_multibody_parts_library.txt file to learn more.
 Open the project by double-clicking on Multibody_Parts_Library.prj
 
 Within the Simscape Multibody Parts Library, you will find parameterized gear assemblies.
@@ -16,6 +16,9 @@ The gear constraint blocks require that other constraints in the mechanism corre
 and orient the frames associated with the gear constraint.  The library blocks group
 the required blocks together and parameterize them so that frames are always in the right place.  
 There are many ways they can be combined, this library shows you one way to do it.
+
+## **Example: Planetary Gear Assembly**
+![](Examples/Gears/Simple/html/html/sm_planetary_gear_testrig_mechanics_explorer_IMAGE.png)
 
 ### **Release History** 
 **v4.0 Mar 2023** (R2019b - R2023a)

@@ -6,7 +6,7 @@
 % mechanism with a complex movement.  Varying the parameter values enables
 % exploration of the motion this mechanism can achieve.
 %
-% Copyright 2017-2023 The MathWorks, Inc.
+% Copyright 2017-2024 The MathWorks, Inc.
 
 
 

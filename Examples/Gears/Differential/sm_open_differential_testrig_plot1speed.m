@@ -5,7 +5,7 @@
 % to the load on one of the axles causes the two axles to spin at different
 % speeds.
 %
-% Copyright 2017-2023 The MathWorks, Inc.
+% Copyright 2017-2024 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_open_differential_testrig', 'var')

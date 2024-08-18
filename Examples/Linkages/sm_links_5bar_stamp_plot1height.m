@@ -3,7 +3,7 @@
 %
 % The plot below shows the height of the stamping pad as Link 1 rotates.
 %
-% Copyright 2017-2023 The MathWorks, Inc.
+% Copyright 2017-2024 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_links_5bar_stamp', 'var')

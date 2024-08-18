@@ -3,7 +3,7 @@
 %
 % This plot shows the position of the slider in the slider-crank mechanism.
 %
-% Copyright 2017-2023 The MathWorks, Inc.
+% Copyright 2017-2024 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_links_slider_crank', 'var')

@@ -4,7 +4,7 @@
 % worm gear assembly are contained in a masked subsystem with the key
 % parameters exposed in a dialog box.
 %
-% Copyright 2017-2023 The MathWorks, Inc.
+% Copyright 2017-2024 The MathWorks, Inc.
 
 
 

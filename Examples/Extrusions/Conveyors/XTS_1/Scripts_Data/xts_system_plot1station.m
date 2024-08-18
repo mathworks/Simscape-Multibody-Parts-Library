@@ -4,7 +4,7 @@
 % The plots below show the requested and current station along the track
 % for each mover.
 %
-% Copyright 2017-2023 The MathWorks, Inc.
+% Copyright 2017-2024 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_xts_system', 'var')

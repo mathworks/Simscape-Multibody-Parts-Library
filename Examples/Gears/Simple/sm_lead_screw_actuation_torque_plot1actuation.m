@@ -3,7 +3,7 @@
 %
 % The plot below shows the actuation torque of the lead screw.
 %
-% Copyright 2017-2024 The MathWorks, Inc.
+% Copyright 2017-2025 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_lead_screw_actuation_torque', 'var')

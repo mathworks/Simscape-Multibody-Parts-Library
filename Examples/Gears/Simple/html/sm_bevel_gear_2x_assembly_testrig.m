@@ -4,7 +4,7 @@
 % gears. The necessary blocks for a bevel gear assembly are contained in a
 % masked subsystem with the key parameters exposed in a dialog box.
 %
-% Copyright 2017-2024 The MathWorks, Inc.
+% Copyright 2017-2025 The MathWorks, Inc.
 
 
 

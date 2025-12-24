@@ -1,5 +1,5 @@
 function [rail_spline, station_data, station_o, station_x, station_y] = xts_generate_track(track_seq)
-% Copyright 2017-2024 The MathWorks, Inc.
+% Copyright 2017-2025 The MathWorks, Inc.
 
 % Generate spline for Point on Curve Constraint
 [rail_spline, station_data] = xts_generate_spline(track_seq);

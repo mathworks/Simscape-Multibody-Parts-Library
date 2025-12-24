@@ -4,7 +4,7 @@
 % This gearset enables the axles to rotate at different speeds even though
 % they are connected to the same input shaft
 %
-% Copyright 2017-2024 The MathWorks, Inc.
+% Copyright 2017-2025 The MathWorks, Inc.
 
 
 

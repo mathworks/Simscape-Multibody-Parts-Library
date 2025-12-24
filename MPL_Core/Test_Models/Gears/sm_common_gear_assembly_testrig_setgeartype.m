@@ -1,6 +1,6 @@
 function sm_common_gear_assembly_testrig_setgeartype(modelname,geartype)
 % Adjust settings of gear assembly to show external and internal gears
-% Copyright 2017-2024 The MathWorks, Inc.
+% Copyright 2017-2025 The MathWorks, Inc.
 
 blkname = [modelname '/Common Gear Assembly'];
 

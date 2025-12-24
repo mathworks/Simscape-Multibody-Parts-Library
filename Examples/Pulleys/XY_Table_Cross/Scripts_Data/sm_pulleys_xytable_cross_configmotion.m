@@ -1,5 +1,5 @@
 function sm_pulleys_xytable_cross_configmotion(mdlname,config)
-% Copyright 2018-2024 The MathWorks, Inc.
+% Copyright 2018-2025 The MathWorks, Inc.
 
 if(strcmpi(config,'XY Position'))
     set_param([mdlname '/Platform/Prescribe Motion'],...

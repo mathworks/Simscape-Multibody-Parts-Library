@@ -8,7 +8,7 @@
 %
 % Return to <matlab:web('Multibody_Parts_Library_Overview.html'); Multibody Parts Library Overview>.
 %
-% Copyright 2017-2024 The MathWorks, Inc.
+% Copyright 2017-2025 The MathWorks, Inc.
 
 
 %% Model

@@ -4,7 +4,7 @@
 % change the lengths of the links enables it to model a parallelogram,
 % crank-rocker, or drag link linkage.
 %
-% Copyright 2017-2024 The MathWorks, Inc.
+% Copyright 2017-2025 The MathWorks, Inc.
 
 
 %% Model

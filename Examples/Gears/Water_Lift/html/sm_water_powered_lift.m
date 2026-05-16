@@ -15,7 +15,7 @@
 % Multibody to model the varying mass, inertia, and center of gravity
 % location in each bucket.  
 % 
-% Copyright 2017-2025 The MathWorks, Inc.
+% Copyright 2017-2026 The MathWorks, Inc.
 
 
 %% Model
